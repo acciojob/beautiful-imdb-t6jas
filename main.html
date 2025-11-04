@@ -1,16 +1,37 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMDb Movie Detail Page</title>
+  <style>
+    .moviePic {
+      height: 400px;
+      width: 300px;
+      opacity: 0.9;
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+    .movieDetail {
+      position: relative;
+      top: 10px;
+      width: 70%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 18px;
+      font-family: Arial, sans-serif;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <img src="https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmRhMC00ZDJlLWFmNTEtODM1ZDAzYzY3NjFjXkEyXkFqcGc@._V1_.jpg" alt="Movie Poster" class="moviePic">
+  
+  <p class="movieDetail">
+    The Shawshank Redemption is a timeless story of hope and friendship set within the walls of a prison. 
+    Andy Dufresne, a man wrongly convicted, transforms his environment through perseverance and quiet strength.
+  </p>
 
 </body>
-
 </html>
